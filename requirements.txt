@@ -1,0 +1,8 @@
+# 安装：.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+# 仅包含 base 和 hello-agents 代码直接导入的第三方依赖。
+# 版本取自当前项目 .venv。
+aiohttp==3.14.3
+fastapi==0.141.1
+requests==2.34.2
+starlette==1.6.0
+tavily-python==0.8.4
